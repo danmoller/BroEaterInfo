@@ -37,7 +37,10 @@ Here is how Bro Eater deals with the information it has access to.
 
 ## Can users opt out from having their data analysed?   
 
-- No. Since Bro Eater is a **moderation** bot based on message content, it's imperative that the bot has access to all messages sent in the channels it has permission to read.
+- Individual users cannot opt out. Since Bro Eater is a **moderation** bot based on message content, it's imperative that the bot has access to all messages sent in the channels it has permission to read.
+- It's possible to deactivate the analysis in a server by using a specific bot command.
+  - The bot will still see incoming messages, but will not take action or analyse the content. 
+  - If the bot restarts due to technical reasons, the operation will be resumed automatically. This will be logged in the bot's log channel.
 
 ## Can the bot read my personal messages?   
 
