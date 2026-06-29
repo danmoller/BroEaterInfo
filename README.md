@@ -1,4 +1,4 @@
-# BroEaterInfo
+# Bro Eater - Discord Moderation Bot
 
 ## What is Bro Eater?
 
