@@ -32,8 +32,16 @@ Here is how Bro Eater deals with the information it has access to.
 
 - Message content is kept in memory for a short while (less than a day) in order to analyse multiple messages sent by a user.
 - None of the data analysed by Bro Eater is transmited to anywhere outside the application.
-- None of the data is saved in any type of media, online or physical, except the bot's volatile memory.
+- Part of the data is stored in a log file (local) with the purpose of debugging the software:
+  - Data stored in the log:
+    - User id and user name that sent the messages
+    - Attachment file names
+    - Channel and time when the messages were sent
+  - Data NOT stored in the log:
+    - Attachment content
+    - Message text content
 - None of the data is used to train AI models.
+- This data is subject to Square Cloud's Privacy Policy, as an operator of the application's content: https://squarecloud.app/pt-br/legal/privacy
 
 ## Can users opt out from having their data analysed?   
 
